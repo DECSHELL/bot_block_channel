@@ -1,0 +1,23 @@
+{
+    "name": "telegram-ali",
+    "description": "https://t.me/decshell",
+    "keywords": [
+      "telegram-bot",
+      "python",
+      "proxy"
+    ],
+    "website": "https://github.com/alihassandy/telegram-ali",
+    "repository": "https://github.com/alihassandy/telegram-ali",
+    "success_url": "https://github.com/alihassandy/telegram-ali",
+    "env": {
+      "HEROKU_APP_NAME": {
+        "description": "اعد كتابه اسم تطبيق heroku هنا"
+      },
+      "TELEGRAM_TOKEN": {
+        "description": "توكن بوتك تجيبه من بوت فاذر"
+      },
+      "OWNER_ID": {
+        "description": "تضيف هنا ايدي حسابك"
+      }
+    }
+}
