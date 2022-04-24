@@ -2,7 +2,7 @@
     "name": "bot_block_channel",
     "description": "https://t.me/decshell",
     "keywords": [
-      "telegram-bot",
+      "bot_block_channel",
       "python",
       "proxy"
     ],
