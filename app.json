@@ -6,9 +6,9 @@
       "python",
       "proxy"
     ],
-    "website": "https://github.com/alihassandy/telegram-ali",
-    "repository": "https://github.com/alihassandy/telegram-ali",
-    "success_url": "https://github.com/alihassandy/telegram-ali",
+    "website": "https://github.com/DECSHELL/bot_block_channel",
+    "repository": "https://github.com/DECSHELL/bot_block_channel",
+    "success_url": "https://github.com/DECSHELL/bot_block_channel",
     "env": {
       "HEROKU_APP_NAME": {
         "description": "اعد كتابه اسم تطبيق heroku هنا"
