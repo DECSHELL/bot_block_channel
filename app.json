@@ -2,7 +2,7 @@
     "name": "bot_block_channel",
     "description": "https://t.me/decshell",
     "keywords": [
-      "bot_block_channel",
+      "telegram-bot",
       "python",
       "proxy"
     ],
@@ -11,13 +11,13 @@
     "success_url": "https://github.com/DECSHELL/bot_block_channel",
     "env": {
       "HEROKU_APP_NAME": {
-        "description": "اعد كتابه اسم تطبيق heroku هنا"
+        "description": "name heroku"
       },
       "TELEGRAM_TOKEN": {
-        "description": "توكن بوتك تجيبه من بوت فاذر"
+        "description": "token bot"
       },
       "OWNER_ID": {
-        "description": "تضيف هنا ايدي حسابك"
+        "description": "you id"
       }
     }
 }
