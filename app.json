@@ -1,6 +1,6 @@
 {
     "name": "bot_block_channel",
-    "description": "https://t.me/decshell",
+    "description": "Deploy a Telegram bot that will help you so muchh...",
     "keywords": [
       "telegram-bot",
       "python",
@@ -11,13 +11,13 @@
     "success_url": "https://github.com/DECSHELL/bot_block_channel",
     "env": {
       "HEROKU_APP_NAME": {
-        "description": "name heroku"
+        "description": "The name of your Heroku app. Yes, again. Just copy-paste it!"
       },
       "TELEGRAM_TOKEN": {
-        "description": "token bot"
+        "description": "Your bot's token. Visit https://t.me/BotFather"
       },
       "OWNER_ID": {
-        "description": "you id"
+        "description": "Enter your user ID"
       }
     }
 }
