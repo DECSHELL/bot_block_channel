@@ -21,13 +21,12 @@
 لا يمكن للمسؤولين المجهولين تنفيذ أوامر البوت
  يجب أن تكون ادمن أو مالكًا للمجموعة
 
-```
 ## Deploy on heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Running bot locally
-```
+
 git clone https://github.com/Ashit-10/channel_chat_blocker_bot
 ```
 
