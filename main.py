@@ -9,12 +9,12 @@ dp = updater.dispatcher
 dp = setup_dispatcher(dp)
 # Run bot
 if HEROKU_APP_NAME is None:  # pooling mode
-    print("بدأ البوت يعمل بنجاح✅")
+    print("Bot has been started successfully ...")
     updater.start_polling(allowed_updates=Update.ALL_TYPES)
     updater.idle()
 
 else:  # webhook mode
-    print(f"تشغيل الروبوت في وضع الرد التلقائي على الويب.  تأكد من أن عنوان url هذا صحيح: https://{HEROKU_APP_NAME}.herokuapp.com/")
+    print(f"Running bot in webhook mode. Make sure that this url is correct: https://{HEROKU_APP_NAME}.herokuapp.com/")
     updater.start_webhook(
         listen="0.0.0.0",
         port=PORT,
