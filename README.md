@@ -1,34 +1,57 @@
-## channel_group_blockbot
+## channel_chat_blocker_bot
 
-- أضفني إلى المجموعة ، وامنح حقوق المسؤول (حظر المستخدمين وحذف الرسائل على الأقل)
-   and /start لتشغيل البوت
 
-- /approvechat <رد لرسالة / اسم المستخدم أو معرف القناة> :-
-   للموافقة على معرف قناتك (حتى تتمكن من الدردشة عبر قناتك)
+[![bot logo](https://telegra.ph/file/6bac313e7f2bc91364a01.jpg)](https://github.com/Ashit-10/channel_chat_blocker_bot)
 
-- /disapprovechat <رد على الرسالة / معرف القناة> :-
-   لحظر / تعطيل / منع معرف القناة المحدد
+## Features of this bot
+```
+
+- Add me to group , give admin rights (for ban and delete messages atleast)
+  and /start to enable/activate me
+
+- /approvechat <tag to message/channel username or id> :-
+   to approve your Channel id (so that you can chat through your channel)
+
+- /disapprovechat <tag to message/channel id> :-
+   to ban/disable/block that particular channel id
 
 - /mychannel :- 
-   للحصول على معلومات قناتك المرتبطة
+   to get your linked channel info
 
-- /list (الموافق | المحظورين):-
-  للحصول على قائمة القنواة الموافقة / المحظورة 
+- /list (approved | banned):-
+  to get approved/banned list 
 
 - /help :-
-   لإظهار نص المساعدة هذا
+   to show this help text
 
-لا يمكن للمسؤولين المجهولين تنفيذ أوامر البوت
- يجب أن تكون ادمن أو مالكًا للمجموعة
-
+NB:  
+  Anonymous admins can't execute bot commands
+  You should be an admin or Owner of the group.
+```
 ## Deploy on heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/DECSHELL/bot_block_channel)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Running bot locally
 ```
 git clone https://github.com/Ashit-10/channel_chat_blocker_bot
 ```
 
-لتشغيل البوت عبر ترمكس
+You need to specify these env variables to run the bot. create a `.env` file.
+
+Add this var 
+```
+TELEGRAM_TOKEN="YOUR_TELEGRAM_BOT_TOKEN"  # your bot's token
+```
+or replace token in `settings.py`
+
+then `pip -r requirements.txt`
+
+Now start the bot
 `python main.py`
+
+
+
+## credit
+
+### ``` python-telegram-bot```
