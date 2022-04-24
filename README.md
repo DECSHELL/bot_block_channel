@@ -26,7 +26,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/DECSHELL/bot_block_channel)
 
 ## Running bot locally
-
+```
 git clone https://github.com/Ashit-10/channel_chat_blocker_bot
 ```
 
