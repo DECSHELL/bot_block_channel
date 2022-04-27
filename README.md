@@ -1,32 +1,26 @@
-## channel_chat_blocker_bot
+## channel_group_blockbot
 
+- أضفني إلى المجموعة ، وامنح حقوق المسؤول (حظر المستخدمين وحذف الرسائل على الأقل)
+   and /start لتشغيل البوت
 
-[![bot logo](https://telegra.ph/file/6bac313e7f2bc91364a01.jpg)](https://github.com/Ashit-10/channel_chat_blocker_bot)
+- /approvechat <رد لرسالة / اسم المستخدم أو معرف القناة> :-
+   للموافقة على معرف قناتك (حتى تتمكن من الدردشة عبر قناتك)
 
-## Features of this bot
-```
-
-- Add me to group , give admin rights (for ban and delete messages atleast)
-  and /start to enable/activate me
-
-- /approvechat <tag to message/channel username or id> :-
-   to approve your Channel id (so that you can chat through your channel)
-
-- /disapprovechat <tag to message/channel id> :-
-   to ban/disable/block that particular channel id
+- /disapprovechat <رد على الرسالة / معرف القناة> :-
+   لحظر / تعطيل / منع معرف القناة المحدد
 
 - /mychannel :- 
-   to get your linked channel info
+   للحصول على معلومات قناتك المرتبطة
 
-- /list (approved | banned):-
-  to get approved/banned list 
+- /list (الموافق | المحظورين):-
+  للحصول على قائمة القنواة الموافقة / المحظورة 
 
 - /help :-
-   to show this help text
+   لإظهار نص المساعدة هذا
 
-NB:  
-  Anonymous admins can't execute bot commands
-  You should be an admin or Owner of the group.
+لا يمكن للمسؤولين المجهولين تنفيذ أوامر البوت
+ يجب أن تكون ادمن أو مالكًا للمجموعة
+
 ```
 ## Deploy on heroku
 
@@ -37,21 +31,5 @@ NB:
 git clone https://github.com/Ashit-10/channel_chat_blocker_bot
 ```
 
-You need to specify these env variables to run the bot. create a `.env` file.
-
-Add this var 
-```
-TELEGRAM_TOKEN="YOUR_TELEGRAM_BOT_TOKEN"  # your bot's token
-```
-or replace token in `settings.py`
-
-then `pip -r requirements.txt`
-
-Now start the bot
+لتشغيل البوت عبر ترمكس
 `python main.py`
-
-
-
-## credit
-
-### ``` python-telegram-bot```
