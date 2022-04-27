@@ -35,4 +35,7 @@ git clone https://github.com/Ashit-10/channel_chat_blocker_bot
 
 لتجربة البوت يمكنك الحصول عليه 
 رابط البوت
-https://t.me/Blockchannbot
+https://t.me/Blockchannbot 
+
+قناتنا على التلكرام 
+https://t.me/decshell
