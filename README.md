@@ -30,7 +30,6 @@
 git clone https://github.com/Ashit-10/channel_chat_blocker_bot
 ```
 
-لتشغيل البوت عبر ترمكس
 `python main.py`
 
 
